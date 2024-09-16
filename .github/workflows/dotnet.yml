@@ -37,7 +37,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: v1.0.0  # 使用你的版本号
-          release_name: Release v1.0.0  # 发布名称
+          name: Release v1.0.0  # 发布名称
           draft: false
           prerelease: false
         env:
